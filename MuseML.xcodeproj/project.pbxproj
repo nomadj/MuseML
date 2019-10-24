@@ -1,0 +1,415 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		29471EE4F558EF4A3B3083BA /* Pods_MuseML.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 16408F50E48FB3A1F79A2DB1 /* Pods_MuseML.framework */; };
+		9337507A2362663900DEAB52 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933750792362663900DEAB52 /* AppDelegate.swift */; };
+		93E1FE6123626812008F77B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 93E1FE6023626812008F77B2 /* Assets.xcassets */; };
+		93E1FE6523626889008F77B2 /* GlobalVar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1FE6423626889008F77B2 /* GlobalVar.swift */; };
+		93E1FE672362689B008F77B2 /* Description.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1FE662362689B008F77B2 /* Description.swift */; };
+		93E1FE69236268CC008F77B2 /* PickerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1FE68236268CC008F77B2 /* PickerVC.swift */; };
+		93E1FE6B236268E2008F77B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93E1FE6A236268E2008F77B2 /* ViewController.swift */; };
+		93E1FE6D2362690D008F77B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E1FE6C2362690D008F77B2 /* Main.storyboard */; };
+		93E1FE6F23626964008F77B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93E1FE6E23626964008F77B2 /* LaunchScreen.storyboard */; };
+		93E1FE732362697F008F77B2 /* Mistv2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 93E1FE702362697F008F77B2 /* Mistv2.mlmodel */; };
+		93E1FE742362697F008F77B2 /* SkatingWaltzv2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 93E1FE712362697F008F77B2 /* SkatingWaltzv2.mlmodel */; };
+		93E1FE752362697F008F77B2 /* LetsWaltzv2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 93E1FE722362697F008F77B2 /* LetsWaltzv2.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16408F50E48FB3A1F79A2DB1 /* Pods_MuseML.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MuseML.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		76EAFEE5ED446B3FC1C5C1AD /* Pods-MuseML.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseML.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MuseML/Pods-MuseML.debug.xcconfig"; sourceTree = "<group>"; };
+		933750762362663900DEAB52 /* MuseML.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MuseML.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		933750792362663900DEAB52 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		93E1FE6023626812008F77B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = ../../WhatFlower/WhatFlower/Assets.xcassets; sourceTree = "<group>"; };
+		93E1FE6423626889008F77B2 /* GlobalVar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlobalVar.swift; sourceTree = "<group>"; };
+		93E1FE662362689B008F77B2 /* Description.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Description.swift; sourceTree = "<group>"; };
+		93E1FE68236268CC008F77B2 /* PickerVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PickerVC.swift; sourceTree = "<group>"; };
+		93E1FE6A236268E2008F77B2 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../WhatFlower/WhatFlower/ViewController.swift; sourceTree = "<group>"; };
+		93E1FE6C2362690D008F77B2 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		93E1FE6E23626964008F77B2 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
+		93E1FE702362697F008F77B2 /* Mistv2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Mistv2.mlmodel; sourceTree = "<group>"; };
+		93E1FE712362697F008F77B2 /* SkatingWaltzv2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SkatingWaltzv2.mlmodel; sourceTree = "<group>"; };
+		93E1FE722362697F008F77B2 /* LetsWaltzv2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = LetsWaltzv2.mlmodel; sourceTree = "<group>"; };
+		93E61FD323626D120028B855 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9F3A92A39158D26944E06FFA /* Pods-MuseML.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MuseML.release.xcconfig"; path = "Pods/Target Support Files/Pods-MuseML/Pods-MuseML.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		933750732362663900DEAB52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29471EE4F558EF4A3B3083BA /* Pods_MuseML.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44C4AFF8E341549123966A1F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				76EAFEE5ED446B3FC1C5C1AD /* Pods-MuseML.debug.xcconfig */,
+				9F3A92A39158D26944E06FFA /* Pods-MuseML.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		9337506D2362663900DEAB52 = {
+			isa = PBXGroup;
+			children = (
+				933750782362663900DEAB52 /* MuseML */,
+				933750772362663900DEAB52 /* Products */,
+				44C4AFF8E341549123966A1F /* Pods */,
+				B593707F3C931F2F694EF72E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		933750772362663900DEAB52 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				933750762362663900DEAB52 /* MuseML.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		933750782362663900DEAB52 /* MuseML */ = {
+			isa = PBXGroup;
+			children = (
+				933750792362663900DEAB52 /* AppDelegate.swift */,
+				93E1FE6A236268E2008F77B2 /* ViewController.swift */,
+				93E1FE68236268CC008F77B2 /* PickerVC.swift */,
+				93E1FE6423626889008F77B2 /* GlobalVar.swift */,
+				93E1FE662362689B008F77B2 /* Description.swift */,
+				93E1FE722362697F008F77B2 /* LetsWaltzv2.mlmodel */,
+				93E1FE702362697F008F77B2 /* Mistv2.mlmodel */,
+				93E1FE712362697F008F77B2 /* SkatingWaltzv2.mlmodel */,
+				93E1FE6C2362690D008F77B2 /* Main.storyboard */,
+				93E1FE6023626812008F77B2 /* Assets.xcassets */,
+				93E1FE6E23626964008F77B2 /* LaunchScreen.storyboard */,
+				93E61FD323626D120028B855 /* Info.plist */,
+			);
+			path = MuseML;
+			sourceTree = "<group>";
+		};
+		B593707F3C931F2F694EF72E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				16408F50E48FB3A1F79A2DB1 /* Pods_MuseML.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		933750752362663900DEAB52 /* MuseML */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9337508B2362663B00DEAB52 /* Build configuration list for PBXNativeTarget "MuseML" */;
+			buildPhases = (
+				E85CC1090BF384B22238CE43 /* [CP] Check Pods Manifest.lock */,
+				933750722362663900DEAB52 /* Sources */,
+				933750732362663900DEAB52 /* Frameworks */,
+				933750742362663900DEAB52 /* Resources */,
+				ADEE90020238E6D6D1058FE8 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MuseML;
+			productName = MuseML;
+			productReference = 933750762362663900DEAB52 /* MuseML.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9337506E2362663900DEAB52 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = Me;
+				TargetAttributes = {
+					933750752362663900DEAB52 = {
+						CreatedOnToolsVersion = 10.2;
+					};
+				};
+			};
+			buildConfigurationList = 933750712362663900DEAB52 /* Build configuration list for PBXProject "MuseML" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9337506D2362663900DEAB52;
+			productRefGroup = 933750772362663900DEAB52 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				933750752362663900DEAB52 /* MuseML */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		933750742362663900DEAB52 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E1FE6F23626964008F77B2 /* LaunchScreen.storyboard in Resources */,
+				93E1FE6D2362690D008F77B2 /* Main.storyboard in Resources */,
+				93E1FE6123626812008F77B2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		ADEE90020238E6D6D1058FE8 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MuseML/Pods-MuseML-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ChameleonFramework/ChameleonFramework.framework",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ChameleonFramework.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MuseML/Pods-MuseML-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E85CC1090BF384B22238CE43 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MuseML-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		933750722362663900DEAB52 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				93E1FE742362697F008F77B2 /* SkatingWaltzv2.mlmodel in Sources */,
+				93E1FE6B236268E2008F77B2 /* ViewController.swift in Sources */,
+				93E1FE732362697F008F77B2 /* Mistv2.mlmodel in Sources */,
+				93E1FE69236268CC008F77B2 /* PickerVC.swift in Sources */,
+				93E1FE672362689B008F77B2 /* Description.swift in Sources */,
+				93E1FE752362697F008F77B2 /* LetsWaltzv2.mlmodel in Sources */,
+				93E1FE6523626889008F77B2 /* GlobalVar.swift in Sources */,
+				9337507A2362663900DEAB52 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		933750892362663B00DEAB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9337508A2362663B00DEAB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9337508C2362663B00DEAB52 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76EAFEE5ED446B3FC1C5C1AD /* Pods-MuseML.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6M6A2ZA5;
+				INFOPLIST_FILE = MuseML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bryan.MuseML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9337508D2362663B00DEAB52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F3A92A39158D26944E06FFA /* Pods-MuseML.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6M6A2ZA5;
+				INFOPLIST_FILE = MuseML/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.Bryan.MuseML;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		933750712362663900DEAB52 /* Build configuration list for PBXProject "MuseML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				933750892362663B00DEAB52 /* Debug */,
+				9337508A2362663B00DEAB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9337508B2362663B00DEAB52 /* Build configuration list for PBXNativeTarget "MuseML" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9337508C2362663B00DEAB52 /* Debug */,
+				9337508D2362663B00DEAB52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9337506E2362663900DEAB52 /* Project object */;
+}
